@@ -20,8 +20,8 @@ API ini dibuat menggunakan **FastAPI** untuk memprediksi **nilai akhir (G3)** se
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/Daivageralda/titanic-fastapi.git
-cd titanic-fastapi
+git clone [https://github.com/RiendraZRamadhan/Student-Grade-Prediction-API]
+cd grade-fastapi
 ```
 
 ### 2. Buat Virtual Environment
@@ -52,14 +52,11 @@ Buka browser ke:
 
 ```json
 {
-  "Name": "John Doe",
-  "Pclass": 2,
-  "Sex": "male",
-  "Age": 30,
-  "SibSp": 1,
-  "Parch": 0,
-  "Fare": 13.5,
-  "Embarked": "S"
+  "studytime": 2,
+  "failures": 0,
+  "absences": 3,
+  "G1": 14,
+  "G2": 15
 }
 ```
 
@@ -67,8 +64,12 @@ Buka browser ke:
 
 ```json
 {
-  "name": "John Doe",
-  "prediction": 1,
-  "result": "Survived"
+  "studytime": 2,
+  "failures": 0,
+  "absences": 3,
+  "G1": 14,
+  "G2": 15,
+  "predicted_G3": 16.7
 }
+
 ```

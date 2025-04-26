@@ -20,7 +20,7 @@ API ini dibuat menggunakan **FastAPI** untuk memprediksi **nilai akhir (G3)** se
 ### 1. Clone Repositori
 
 ```bash
-git clone [https://github.com/RiendraZRamadhan/Student-Grade-Prediction-API]
+git clone https://github.com/RiendraZRamadhan/Student-Grade-Prediction-API
 cd grade-fastapi
 ```
 
